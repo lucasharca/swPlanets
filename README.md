@@ -7,6 +7,7 @@ O desafio proposto foi de criar uma API para guardar informações de planetas d
 - NodeJs
 - Typescript
 - MongoDB
+- Docker
 
 # Iniciando a aplicação
 
