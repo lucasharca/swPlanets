@@ -44,3 +44,16 @@ Para adicionar um novo planeta ao banco de dados é necessário enviar no corpo 
 }
 ```
 
+Não é necessário adicionar a quantidade de filmes em que o planeta apareceu. A aplicação faz uma busca automática em uma API que contém tal informação e adiciona no banco junto com os dados entrados.
+
+# Buscas de planetas
+
+É possível realizar a busca de planetas de duas maneiras. 
+
+* A primeira é uma listagem de todos os planetas registrados no banco de dados através do endpoint GET `http://localhost:3333/planets/all`
+
+* A segunda maneira retorna apenas um planeta desejado. Esta busca pode ser feita passando o ID cadastrado do planeta ou o nome do mesmo através de query params. Ex: GET `http://localhost:3333/planets/find?id=5f672b5c534fa16aafbd21fe` ou `http://localhost:3333/planets/find?name=tatooine`
+
+# Deletando planetas
+
+É possível deletar um planeta registrado no banco de dados, para isso será necessário passar o ID que o planeta recebeu ao ser cadastrado. Ex: DELETE `http://localhost:3333/planets/delete/5f672b5c534fa16aafbd21fe`
