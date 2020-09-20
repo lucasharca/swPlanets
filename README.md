@@ -8,7 +8,7 @@ O desafio proposto foi de criar uma API para guardar informações de planetas d
 - Typescript
 - MongoDB
 
-## Iniciando a aplicação
+# Iniciando a aplicação
 
 Para iniciar a aplicação é necessario ter instalado o Docker-compose e digitar no terminal:
 
@@ -42,3 +42,4 @@ Para adicionar um novo planeta ao banco de dados é necessário enviar no corpo 
    "terrain" : "<terreno do planeta>"
 }
 ```
+

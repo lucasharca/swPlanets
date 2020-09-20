@@ -3,7 +3,7 @@ import mongoose from 'mongoose';
 let db: mongoose.Connection;
 
 export const connect = () => {
-  const uri = 'mongodb://localhost:27017/starwars'
+  const uri = 'mongodb://mongo:27017/starwars'
 
   mongoose.connect(uri, {
     useNewUrlParser: true
